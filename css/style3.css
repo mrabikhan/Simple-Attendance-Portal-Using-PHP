@@ -1,0 +1,106 @@
+*
+{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+.header
+{
+    background-color: rgb(4, 4, 38);
+    padding: .8rem;
+    
+}
+
+.header h1
+{
+    color: white;
+    margin-left: 4.5rem;
+    margin-top: -3rem;
+}
+
+.header img
+{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.para
+{
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: black;
+    color: white;
+    padding: .5rem;
+}
+
+.header button
+{
+    position: absolute;
+    left:87%;
+    padding: 10px;
+    width: 120px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    top:3.5%;
+    font-size: 18px;
+}
+.header button:hover
+{
+    background-color: green;
+    cursor: pointer;
+}
+
+
+.footer
+{
+    background-color: maroon;
+    color: white;
+    font-size: 20px;
+}
+
+.footer p
+{
+    padding: 10px;
+    margin-top: 197px;
+    text-align: center;
+}
+
+table
+{
+    margin-top: 50px;
+    padding: 10px;
+    border-collapse: collapse;
+    width: 1000px;
+    text-align: center;
+    height: 200px;
+    border: 2px solid rgb(160, 139, 139);
+    font-size: 20px;
+}
+
+table th
+{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.backbtn button
+{
+color: white;
+padding: 10px;
+background-color: red;
+width: 100px;
+margin-top: 20px;
+border: none;
+border-radius: 5px;
+
+}
+
+.backbtn button:hover
+{
+    cursor: pointer;
+    background-color: green;
+}

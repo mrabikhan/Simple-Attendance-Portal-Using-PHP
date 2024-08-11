@@ -1,0 +1,160 @@
+*
+{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+
+.contain table
+{
+border: 2px solid gray;
+border-collapse: collapse;
+width: 700px;
+border-radius: 10px;
+}
+
+table th
+{
+    text-align: center;
+    padding: 10px;
+    background-color: green;
+    color:white;
+    font-size: 20px;
+}
+
+table td
+{
+    padding: 15px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+table button
+{
+
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    margin-left: 15px;
+    width: 80px;
+}
+
+.print button
+{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100px;
+    margin-left: 590px;
+}
+
+.print button:hover
+{
+    transition: .3s;
+    opacity: 70%;
+    cursor: pointer;
+}
+.contain table button:hover
+{
+    transition: .3s;
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.submit button
+{
+    background-color: darkblue;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.submit button:hover
+{
+    background-color: rgb(105, 194, 16);
+    color:white;
+    border: 1px solid rgb(31, 0, 167);
+}
+
+.header
+{
+    background-color: rgb(4, 4, 38);
+    padding: .8rem;
+    
+}
+
+.header h1
+{
+    color: white;
+    margin-left: 4.5rem;
+    margin-top: -3rem;
+}
+
+.header img
+{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.para
+{
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: black;
+    color: white;
+    padding: .5rem;
+}
+
+.header button
+{
+    position: absolute;
+    left:87%;
+    padding: 10px;
+    width: 120px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    top:3.5%;
+    font-size: 18px;
+}
+.header button:hover
+{
+    background-color: green;
+    cursor: pointer;
+}
+
+
+.footer
+{
+    background-color: maroon;
+    color: white;
+    font-size: 20px;
+}
+
+.footer p
+{
+    padding: 10px;
+    margin-top: 143px;
+    text-align: center;
+}
+
+.date
+{
+    margin-right: 540px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(99, 16, 16);
+    width: fit-content;
+    border-radius: 3px;
+    font-weight: bold;
+    
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soften Solution</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+        <img src="images/logo.png" alt="">
+        <h1>Student Attendence Portal</h1>
+        <a href="#"><button><i class="fa fa-user"></i> Sign Out</button></a>
+       </div>
+   
+       <div class="para">
+           <p>A New Innovation To Life</p>
+       </div>
+    
+    <br>
+    <center>
+    <div class="print">
+    <a href="print.php"><button><i class="fa fa-print"></i> Print</button></a>
+    </div>
+    <br>
+    <div class="contain">
+    <form action="attendence.php" method="post">
+    <div class="date">Date: <input type="date" name="date" required></div>
+    <table border="2px">
+        <thead>
+            <tr>
+                <th>S no</th>
+                <th>Student Name</th>
+                <th>Roll No</th>
+                <th>Present</th>
+                <th>Absent</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>1</td>
+            <td>Tehreem Masood</td>
+            <td>AMZ-C22-001</td>
+            <td><input type="checkbox" name="statusA1" value="Present"></td>
+            <td><input type="checkbox" name="statusA1" value="Absent"></td>
+        </tr>
+
+        <tr style="background-color: rgb(226, 226, 255);">
+            <td>2</td>
+            <td>Dua Qaiser</td>
+            <td>AMZ-C22-002</td>
+            <td><input type="checkbox" name="statusA2" value="Present"></td>
+            <td><input type="checkbox" name="statusA2" value="Absent"></td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Ayesha Rana</td>
+            <td>AMZ-C22-003</td>
+            <td><input type="checkbox" name="statusA3" value="Present"></td>
+            <td><input type="checkbox" name="statusA3" value="Absent"></td>
+        </tr>
+
+        <tr style="background-color: rgb(226, 226, 255);">
+            <td>4</td>
+            <td>Hira Zeeshan</td>
+            <td>AMZ-C22-004</td>
+            <td><input type="checkbox" name="statusA4" value="Present"></td>
+            <td><input type="checkbox" name="statusA4" value="Absent"></td>
+        </tr>
+    </table>
+    <div class="submit">
+    <button><i class="fa fa-rocket"></i> Submit</button>
+    </div> 
+    </form>
+    </div>
+   
+</center>
+    <div class="footer">
+        <p>@All Copyrights Reseverd By Soften Solution | 2022</p>
+    </div>
+</body>
+</html>
